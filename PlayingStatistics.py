@@ -1,5 +1,5 @@
 import statistics
-example_list=[4,6,5,2,5,6,4,5,6,8,3,6,7,5,7,2,2,2,2,2,1]
+example_list=[4,6,5,2,5,6,4,5,6,8,3,6,7,5,7,2,2,2,2,2,1,0,1,2,3,5,6]
 x= statistics.mean(example_list)
 print('Mean: ',x)
 
