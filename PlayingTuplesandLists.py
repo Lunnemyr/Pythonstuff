@@ -1,15 +1,7 @@
-# Tuples are faster than lists and can not be changed!
-x = 5,6,2,6
-y = (5,6,2,6)
 
-# List
-z = [5,6,2,6]
+x = [5,2,3,6,8,9,6,4,3,2,6,7]
 
+print (x)
+x.append(2)
+print (x)
 
-def exampleFunc():
-    return 15,6
-
-a,b = exampleFunc()
-
-print (a)
-print (b)
